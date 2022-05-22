@@ -23,7 +23,7 @@
 <a name="get-started"></a>
 # Get Started
 
-Gim.Cool Merchant Service(CMS) is a comprehensive cryptocurrency payment servcie, based on the deposit wallet of Gim.Cool VAULT.
+Gim.Cool Merchant Service is a comprehensive cryptocurrency payment servcie, based on the deposit wallet of Gim.Cool VAULT.
 
 ### Try it now
 - Use [mock server](#mock-server) to test Gim.Cool Merchant API right away.
