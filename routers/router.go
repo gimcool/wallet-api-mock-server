@@ -75,4 +75,7 @@ func init() {
 	beego.Router("/v1/mock/merchant/:merchant_id/notifications/manual", &controllers.MerchantController{}, "POST:ResendFailedMerchantCallbacks")
 
 	beego.Router("/v1/mock/merchant/callback", &controllers.MerchantController{}, "POST:Callback")
+
+	beego.Router("/v1/mock/receive/callback", &controllers.OuterController{}, "POST:ReceiveCallback")
+
 }

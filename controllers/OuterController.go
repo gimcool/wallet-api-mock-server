@@ -995,3 +995,12 @@ func (c *OuterController) GetReadOnlyWalletListBalances() {
 	json.Unmarshal(resp, &m)
 	c.Data["json"] = m
 }
+
+// @Title Receive callback
+// @router /receive/callback [post]
+func (c *OuterController) ReceiveCallback() {
+	fmt.Println("=========================")
+	fmt.Println(string(c.Ctx.Input.RequestBody))
+	c.Ctx.WriteString("OK")
+	fmt.Println("=========================")
+}
